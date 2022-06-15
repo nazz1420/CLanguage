@@ -1,0 +1,26 @@
+1. A computer's main memory consists of transistors that switch between high and low voltage levels — sometimes 5V, sometimes 0.
+That reading is done by the computer’s processor which reads the transistor state — high or low — to control the computer’s other 
+devices, according to software instructions.
+
+2. The full form of IDE is integrated development environment .
+
+3. A text editor is simply a computer program and a tool used for editing plain text,it does not have anything built-in to help you
+ to code whereas a code editor is also a text editor .
+
+4. ​​There are two steps develop software using the C language:
+​​    1.create a source file.
+​​    2.build a software.
+
+5.   A. C17. Published in June 2018 as ISO/IEC 9899:2018, C17 is the current standard for the C programming language.
+   
+    B. C, computer programming language developed in the early 1970s by American computer scientist Dennis M. Ritchie 
+           at Bell Laboratories (formerly AT&T Bell Laboratories).
+
+    C. System software are designed to manage system resources, such as process management, memory management, security and maintenance,
+       and more.On other hand Application Software is the type of software which runs as per user request.
+
+    D. 1.Write down the number.
+        2.Divide it by 2 and note the remainder.
+        3.Divide the quotient obtained by 2 and note the remainder.
+        4.Repeat the same process till we get 0 as the quotient.
+        5.Write the values of all the remainders starting from the bottom to the top.
