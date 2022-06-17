@@ -1,0 +1,20 @@
+1. Primitive datatype:- int, float, char, double
+
+2. declaration statements
+
+3. 4 byte
+
+4. undefined value
+
+5. double is more precise than float can store 8 bytes, and
+   float can store 4 byte.
+
+6. American Standard Code for Information Interchange.
+
+7. Keywords are Reserved words,functions are basic building blocks in a program.
+
+8.
+
+9. yes
+
+10. True 
