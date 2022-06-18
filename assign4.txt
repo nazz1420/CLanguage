@@ -1,0 +1,85 @@
+1.
+#include <stdio.h>
+int main()
+{
+    printf("Hello Students");
+
+  
+}
+
+2.
+#include <stdio.h>
+int main()
+{
+    printf("Hello \nStudents");
+
+  
+}
+
+3.
+#include <stdio.h>
+int main() {
+  printf("\"My SirG\"");     
+	
+}
+
+4.
+#include <stdio.h>
+int main() {
+  printf("\"Teacher\'s Day\"");     
+}
+
+5.
+#include <stdio.h>
+
+int main()
+{
+    printf("\n");
+}
+
+6.
+#include <stdio.h>
+
+int main()
+{
+    int a = 12;
+    printf("%d",a);
+
+}
+
+7.
+#include <stdio.h>
+
+int main()
+{
+    int a = 12;
+    char b= 'a'; 
+    float c= 2.5;
+    printf("%d %c %f",a,b,c);
+
+}
+
+8.
+%i = Unsigned integer
+%lf = Double
+%gor%G = %eor%E =	Scientific notation of floats
+example.
+#include <stdio.h>
+
+int main()
+{
+    int x = 12;
+    float y= 5.7; 
+    double z = 3.5;
+    printf("%i %g %lf",x,y,z);
+
+}
+
+9.
+#include <stdio.h>
+int main()
+{
+    char c = 'k';
+    printf("The ASCII value of %c is %d", c, c);
+}
+
