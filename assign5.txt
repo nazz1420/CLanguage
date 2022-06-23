@@ -1,0 +1,142 @@
+1. add 2 no.--->
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter two numbers");
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("the sum of %d and %d is %d",a,b,c);
+    
+}
+
+2. Area of circle
+
+#include <stdio.h>
+
+int main()
+{
+     printf("enter radius");
+    int r,A;
+    float pi=3.14;
+    scanf("%d",&r);
+    A=pi*r*r;
+    printf("the area of circle is %d",A);
+    
+}
+
+3. Volum of cuboid
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter Length,Width and Height");
+    int L,W,H,V;
+    scanf("%d %d %d",&L,&W,&H);
+    V=L*W*H;
+    printf("the volume of cuboid is-- %d",V);
+    
+}
+
+4.  the simple interest
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter principal , rate and time (in years)" );
+    int P,R,T,A;
+    scanf("%d %d %d",&P,&R,&T);
+    A=P*R*T/100;
+    printf("the Simple interest of %d is-- %d",P,A);
+    
+}
+
+5.  the area of a rectangle
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter length , and width" );
+    int l,w,A;
+    scanf("%d %d",&l,&w);
+    A=l*w;
+    printf("the area of a rectangle is-- %d",A);
+    
+}  
+
+6. the average of three numbers
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter three numbers" );
+    int F,S,T,average;
+    scanf("%d %d %d",&F,&S,&T);
+    average= (F+S+T)/3;
+    printf("the average of three no is -- %d",average);
+    
+}
+
+7. the square of a given number
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a numbers" );
+    int N,Square;
+    scanf("%d", &N);
+    Square=N*N;
+    printf("the Sqaure of %d  is -- %d",N,Square);
+    
+}
+
+8. ASCII code
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a character--" );
+    char C;
+    scanf("%c", &C);
+    printf("the Ascii code of %c  is -- %d",C,C);
+    
+}
+
+9. the profit percentage
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a Product Cost AND selling price--" );
+    int C,S, Profit,ProfitPercentage ;
+    scanf("%d %d", &C,&S);
+    Profit = S - C;
+    ProfitPercentage =(Profit/C)*100;
+    printf("The profit is -- %d",Profit);
+    printf("The profitPersentage is -- %d",ProfitPercentage );
+    
+}
+
+10. area of a triangle 
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter tringle's base and height " );
+    int B,H,A ;
+    scanf("%d %d", &B,&H);
+    A = (B*H)/2;
+    printf("The Area of tringle is -- %d",A);
+    
+}
+
