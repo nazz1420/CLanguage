@@ -1,0 +1,204 @@
+1. check whether a given number is divisible by 3 and divisible by 2.
+
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    if((x%2==0)&&(x%3==0))
+    {
+        printf("given no %d is divisible both by 2&3",x);
+    }
+    else{
+        printf
+        
+        ("given no %d is not-divisible by 2&3",x);
+    }
+}
+
+2.  number is divisible by 7 or divisible by 3.
+
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    if((x%7==0)||(x%3==0))
+    {
+        if(x%7==0){
+            printf("given ni %d is divisible by 7",x);
+        }
+        else{
+            printf("given no %d is divisible by 3",x);
+        }
+    }
+    else{
+        printf("given no %d is not divisible by 3 or 7");
+    }
+} 
+
+3. number is positive, negative or zero. 
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("enter a number");
+    scanf("%d",&x);
+    if(x>0){
+            printf("given no %d is positive",x);
+        }
+    else if (x<0){
+            printf("given no %d is nagetive",x);
+        }
+    
+    else{
+        printf("given no %d is Zero",x);
+    }
+} 
+
+4.  year is a leap year or not.
+#include <stdio.h>
+
+int main()
+{
+    int yr;
+    printf("enter a year");
+    scanf("%d",&yr);
+    if(yr%4==0){
+            printf("given year %d leap year",yr);
+        }
+    else{
+        printf("given year %d is not a leap year",yr);
+    }
+} 
+
+5. greater among three numbers.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int f,s,t;
+    printf("enter Three numbers");
+    scanf("%d%d%d",&f,&s,&t);
+    if(f>s){
+        if(f>t){
+            printf("given first no %d is greater",f);
+        }
+        
+        else{
+            printf("given last no %d is greater",t);
+        }
+    }
+    else if(s>f){
+        if(s>t){
+                printf("given second no %d is greater",s);
+        }
+        else{
+                printf("given last no %d is greater",t);
+        }
+    }
+    
+} 
+
+6. given character is an alphabet (uppercase), an alphabet (lower case), a digit or a special character.
+
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character");
+    scanf("%c",&ch);
+    if(ch>='a'&&(ch<='z')){
+        printf("given character %c is lowerCase ",ch);
+    }
+    else if(ch>='A'&&(ch<='Z')){
+        printf("given character %c is UpperCase",ch);
+    }
+    else if (ch>='0'&&ch<='9'){
+        printf("given character %c is digit",ch);
+    }
+    else{
+        printf("given character %c is special character",ch);
+    }
+} 
+
+7.  triangle is valid or not
+
+#include <stdio.h>
+
+int main()
+{
+    int s1,s2,s3;
+    printf("enter a sides of tringle");
+    scanf("%d%d%d",&s1,&s2,&s3);
+    if (((s1+s2)>s3)&&((s1+s3)>s2)&&((s2+s3)>s1)){
+        printf("the tringle is valid");
+    }
+    else{
+        printf("the tringle is invalid");
+    }
+   
+} 
+
+8. display number of days in that month
+
+#include <stdio.h>
+
+int main()
+{
+    int month;
+    printf("enter a month as a no");
+    scanf("%d",&month);
+    if ((month==1)||(month==3)||(month==5)||(month==7)||(month==8)||(month==10)||(month==12))
+        {
+        printf("31 days in a %dth month",month);
+    }
+    else if((month==3)||(month==6)||(month==9)||(month==11)){
+        printf("30 days in a %dth month",month);
+    }
+    else{
+           printf("28/29 days in a %dth month",month);
+    }
+   
+} 
+
+10.  Calculate percentage and grade 
+
+
+#include <stdio.h>
+
+int main()
+{
+    int s1,s2,s3,s4,s5,Per,total;
+    printf("enter marks of  Physics, Chemistry, Biology, Mathematics and Computer");
+    scanf("%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5);
+    total=s1+s2+s3+s4+s5;
+    Per=total/5;
+    if(Per>= 90){
+        printf("you got %d/ and Grade A",Per);
+    }
+    else if(Per>= 80){
+        printf("yougot %d/ and Grade B",Per);
+    }
+    else if(Per>= 70){
+        printf("you got %d/ and Grade C",Per);
+    }
+    else if(Per>= 60){
+        printf("you got %d/ and Grade D",Per);
+    }
+    else if(Per>= 40){
+        printf("you got %d/ and Grade E",Per);
+    }
+    else{
+        printf("you got %d/ and Grade F",Per);
+    }
+} 
