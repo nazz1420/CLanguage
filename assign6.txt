@@ -1,0 +1,149 @@
+1.
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    float y;
+    double z;
+    char ch;
+    int a,b,c,d;
+    a=sizeof(x);
+    b=sizeof(y);
+    c=sizeof(z);
+    d=sizeof(ch);
+    printf("SizeOf x= %d\n SizeOf y= %d\n SizeOf z= %d\n SizeOf ch= %d",a,b,c,d);
+    
+}
+
+2. last digit of a given number
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a no.--");
+    int x,y;
+    scanf("%d",&x);
+    printf("given no is %d",x);
+    y=x%10;
+    printf("the last digit of given no is %d",y);
+    
+}
+
+3.  first digit of a given three digit number
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a no.--");
+    int x,y;
+    scanf("%d",&x);
+    printf("given no is %d",x);
+    y=x/100;
+    printf("the first digit of given  three digit no is %d",y);
+    
+}
+
+4. middle digit of a given three digit number
+
+#include <stdio.h>
+
+int main()
+{
+    printf("enter a no.--");
+    int x,y;
+    scanf("%d",&x);
+    printf("given no is %d",x);
+    y=(x/10)%10;
+    printf("the middle digit of given  three digit no is %d",y);
+    
+}
+
+6. swap values of two int variables
+
+#include <stdio.h>
+
+int main()
+{
+   
+    printf("enter two no--\n");
+    int x,y,z;
+    scanf("%d %d",&x,&y);
+    printf("x= %d y= %d\n",x,y);
+    z=x;
+    x=y;
+    y=z;
+    printf("x= %d y= %d",x,y);
+}
+
+6. swap values of two int variables without using third variable
+
+
+#include <stdio.h>
+
+int main()
+{
+   
+    printf("enter two no--\n");
+    int x,y;
+    scanf("%d %d",&x,&y);
+    printf("x= %d y= %d\n",x,y);
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("x= %d y= %d",x,y);
+}
+
+7.  the last digit of a number stored in a variable as zero. 
+
+#include <stdio.h>
+
+int main()
+{
+   
+    printf("enter a digit\n");
+    int x,y;
+    scanf("%d",&x);
+    printf("x= %d\n",x);
+    y=(x/10)*10;
+    printf("y= %d",y);
+}
+
+8.  Append a digit in the number
+
+#include <stdio.h>
+
+int main()
+{
+    int D,N;
+    printf("enter a number\n");
+    scanf("%d",&N);
+    printf("enter a digit\n");
+    scanf("%d",&D);
+    printf("Entered number= %d\n",N);
+    printf("Entered Digit= %d\n",D);
+    N=(N*10)+D;
+    printf("New Number is %d",N);
+}
+
+9.  INR and convert it into USD.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int Inr;
+    float usd;
+    printf("enter a amount in Inr\n");
+    scanf("%d",&Inr);
+    printf("Entered Amount= %f\n",Inr);
+    usd=Inr/76.23;
+    printf("the %d INR is equal to %f $ ",Inr,usd);
+    
+  
+}
+
+
